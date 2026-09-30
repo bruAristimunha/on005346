@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Naturalistic fMRI and MEG recordings during viewing of a reality TV show",
-  "description": "This dataset comprises naturalistic fMRI and MEG recordings from healthy adult participants who viewed an excerpt of a Chinese reality TV show, 'Where Are We Going, Dad?'. Thirty participants underwent fMRI scanning and thirty separate participants underwent MEG scanning using a novel OPM-MEG system, followed by comprehension questions and a resting period to capture spontaneous mental replay of the video. The dataset supports investigations of naturalistic neural processing, inter-subject correlation, and comparison between hemodynamic and neuromagnetic responses to complex audiovisual stimuli.",
-  "methods_description": "fMRI data were acquired on a 3.0T Siemens Prisma scanner with T1-weighted MP-RAGE anatomical scans and T2*-weighted EPI functional scans. MEG data were recorded using a 64-channel optically pumped magnetometer (OPM) system at 1000 Hz sampling rate within a magnetically shielded room; T1-weighted MRI scans were also acquired for source localization using a 3.0T Siemens TrioTim scanner. Preprocessing included conversion to BIDS/NIfTI format via dcm2bids and dcm2niix, defacing with PyDeface, and fMRIPrep-based preprocessing including motion correction, slice-timing correction, and coregistration.",
+  "description": "A naturalistic neuroimaging dataset in which 30 participants underwent fMRI and a separate group of 30 participants underwent optically pumped magnetometer MEG (OPM-MEG) while watching a 25-minute excerpt of the Chinese reality TV show \"Where Are We Going, Dad?\". After viewing, participants answered comprehension questions and then rested with eyes closed for 15 minutes, which captured spontaneous mental replay of the video. The dataset includes anatomical scans and fMRIPrep-preprocessed fMRI data, and it supports studies of naturalistic story and social processing and of inter-subject correlation.",
+  "methods_description": "fMRI data were acquired on a 3T Siemens Prisma scanner with T1-weighted MP-RAGE anatomical scans and T2-weighted EPI functional scans (TR=2000 ms, 2.5 mm isotropic voxels). MEG data were recorded with a 64-channel OPM-MEG system (Quanmag) at 1000 Hz inside a magnetically shielded cylinder. T1-weighted MRI was acquired for source localization. fMRI data were converted to BIDS with dcm2bids and dcm2niix, defaced with PyDeface, and preprocessed with fMRIPrep.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -17,30 +17,29 @@
       "term": "fMRI"
     },
     {
-      "term": "Magnetoencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
+      "term": "MEG"
     },
     {
       "term": "optically pumped magnetometer"
     },
     {
-      "term": "naturalistic stimuli"
+      "term": "naturalistic stimulus"
+    },
+    {
+      "term": "reality TV show"
     },
     {
       "term": "inter-subject correlation"
     },
     {
-      "term": "reality TV"
+      "term": "Magnetic Resonance Imaging",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D008279"
     },
     {
-      "term": "resting state"
-    },
-    {
-      "term": "audiovisual"
-    },
-    {
-      "term": "video stimuli"
+      "term": "Magnetoencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
     }
   ],
   "related_identifiers": [
@@ -81,7 +80,7 @@
     "meg"
   ],
   "sizes": [
-    "120.5 GB (515 files)"
+    "112 GB (515 files)"
   ],
   "formats": [
     ".csv",
