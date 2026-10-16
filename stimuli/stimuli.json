@@ -15,7 +15,7 @@
     "Description": "Where the source can be obtained (official page, upload or deposit). Not a copy made by us."
   },
   "rights": {
-    "Description": "Rights note. The video is third-party broadcast content (Hunan TV, 2013). Its file is in this dataset at sourcedata/stimuli/baba_video.mp4 because the dataset authors deposited it there (OpenNeuro ds005346, commit b0d4795, 2025-07-13); this enrichment did not add it. The authors give no statement of redistribution rights for it, and the dataset licence (CC0) does not cover it."
+    "Description": "Rights note. The video is third-party broadcast content (Hunan TV, 2013). Its file is included in this dataset at sourcedata/stimuli/baba_video.mp4, deposited by the dataset authors (OpenNeuro ds005346, commit b0d4795, 2025-07-13) and redistributed in this dataset with permission obtained by its NEMAR curator (Bruno Aristimunha). The dataset licence (CC0) does not cover the video; its rights stay with the rights holder. This enrichment did not add the file."
   },
   "duration_s": {
     "Description": "Duration of the presented version.",

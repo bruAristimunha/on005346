@@ -30,8 +30,9 @@ MEG data preprocessing was conducted using MNE-Python (v1.8.0). We first applied
 `stimuli/stimuli.tsv` describes the video of `task-baba`: the file already deposited as
 `sourcedata/stimuli/baba_video.mp4` (1519.33 s, 15 fps, 640 x 368, with audio; SHA-256 in the table), the 25 min 19 s
 excerpt of season 1, episode 1 (2013) of the Hunan TV show "Where Are We Going, Dad?" (YouTube ZgRdRHmYuN8). It is
-third-party broadcast content. The dataset authors deposited the file on OpenNeuro (ds005346, 2025-07-13) without a
-statement of redistribution rights; the dataset licence (CC0) does not cover it. No media file was added by this update.
+third-party broadcast content, included in this dataset: the dataset authors deposited the file on OpenNeuro
+(ds005346, 2025-07-13), and it is redistributed in this dataset with permission obtained by its NEMAR curator (Bruno Aristimunha). The dataset licence (CC0) does not cover the
+video; its rights stay with the rights holder. No media file was added by this update.
 
 Timing, checked on the MEG files (sub-31 to sub-60): every `task-baba` recording lasts 1519.0 s, the length of the video,
 and the trigger channel STI1 has the value 6 at its first sample only, so the recording starts at video onset. The FIF
