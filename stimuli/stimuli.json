@@ -15,7 +15,7 @@
     "Description": "Where the source can be obtained (official page, upload or deposit). Not a copy made by us."
   },
   "rights": {
-    "Description": "Rights note. 'third-party; not included': the video belongs to its rights holder and is not part of this dataset."
+    "Description": "Rights note. The video is third-party broadcast content (Hunan TV, 2013). Its file is in this dataset at sourcedata/stimuli/baba_video.mp4 because the dataset authors deposited it there (OpenNeuro ds005346, commit b0d4795, 2025-07-13); this enrichment did not add it. The authors give no statement of redistribution rights for it, and the dataset licence (CC0) does not cover it."
   },
   "duration_s": {
     "Description": "Duration of the presented version.",
